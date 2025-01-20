@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /50x.html
+Allow: /puan-durumu
+
+Sitemap: https://goztepeli.com/sitemap.xml
