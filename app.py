@@ -7,13 +7,13 @@ import tornado.ioloop
 import tornado.web
 
 # Redis Bağlantısı
-redis_client = redis.StrictRedis(host='', port=6379, password='', decode_responses=True)
+redis_client = redis.StrictRedis(host='goztepeli.com', port=6379, password='dD5Yz6xE5m', decode_responses=True)
 
 # API Bilgileri
 API_URL = "https://api.collectapi.com/sport/league?data.league=super-lig"
 HEADERS = {
     'content-type': "application/json",
-    'authorization': "apikey "
+    'authorization': "apikey 1G5HqgQXJ4W3saJspMJTVT:7cuUTEsc6OyE55ewv64Umj"
 }
 
 
